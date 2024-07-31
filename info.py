@@ -66,13 +66,13 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'nitin94ug@ybl') # owner username without @
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', False) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone mode is true
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nitinmovie94')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nwjwcwgvwnqjbnyfbhgf')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nwjwcwgvwnqjbnyfbhgf')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nitinmovie94')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Howtodownload945/3')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'nirin94ug') # Support Chat Link Without https:// or @
 
@@ -106,7 +106,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Howtodownload945/3')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mypowerlinks.org')
 SHORTLINK_API = environ.get('SHORTLINK_API', '767dfd3dd5978c4ef51987239546ff594853a40e')
 
