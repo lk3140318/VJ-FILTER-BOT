@@ -107,8 +107,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Howtodownload945/
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mypowerlinks.org')
-SHORTLINK_API = environ.get('SHORTLINK_API', '767dfd3dd5978c4ef51987239546ff594853a40e')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
