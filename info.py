@@ -33,7 +33,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002045377846'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5213073489').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002438028665').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', 'https://t.me/nitinmovie94').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', 'https://t.me/+ok6_GA7zwUE3YmJl').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # auth_channel means force subscribe channel.
@@ -73,7 +73,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'False') # Public Chann
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+hgF1HH9P4pMxZjA1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies9486')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Howtodownload945/3')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+ULb1gZu3Mvk1OWZl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'nitin947') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -98,12 +98,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'mypowerlinks.org')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '48a0895374d3b4b06786814ef326d2b57082df90')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'gplinks.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'f4b378dd4a30666fd69df89709c55d4f694b5826')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Howtodownload945/3')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+ULb1gZu3Mvk1OWZl')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
