@@ -101,14 +101,14 @@ VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'gplinks.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'f4b378dd4a30666fd69df89709c55d4f694b5826')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'gplinks.com')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'f4b378dd4a30666fd69df89709c55d4f694b5826')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+ULb1gZu3Mvk1OWZl')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f4b378dd4a30666fd69df89709c55d4f694b5826')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
